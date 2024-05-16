@@ -20,7 +20,7 @@ export const Projects = () => {
       link:"https://github.com/Esterfrndz/quick_drop/"
     },
     {
-      title: "Piedra Papel o Tijeras",
+      title: "Game",
       description: "Javascript",
       imgUrl: game,
       link:"https://piedra-papel-tijera-two.vercel.app/"
