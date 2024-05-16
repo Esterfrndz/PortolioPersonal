@@ -1,6 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import Quicly from "../assets/img/Quickly.png";
+import game from "../assets/img/game.png";
 import project2 from "../assets/img/project2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -17,6 +18,12 @@ export const Projects = () => {
       description: "Flutter",
       imgUrl: Quicly,
       link:"https://github.com/Esterfrndz/quick_drop/"
+    },
+    {
+      title: "Piedra Papel o Tijeras",
+      description: "Javascript",
+      imgUrl: game,
+      link:"https://piedra-papel-tijera-two.vercel.app/"
     },
     
     
