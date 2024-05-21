@@ -2,13 +2,11 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import Quicly from "../assets/img/Quickly.png";
 import game from "../assets/img/game.png";
-import project2 from "../assets/img/project2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import web from "../assets/img/web.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { Link } from "react-router-dom";
-import { Justify } from "react-bootstrap-icons";
+
 
 export const Projects = () => {
 
@@ -24,6 +22,12 @@ export const Projects = () => {
       description: "Javascript",
       imgUrl: game,
       link:"https://piedra-papel-tijera-two.vercel.app/"
+    },
+    {
+      title: "Web Shop",
+      description: "HTML/CSS",
+      imgUrl: web,
+      link:"https://github.com/Esterfrndz/WebShop"
     },
     
     
@@ -51,7 +55,6 @@ export const Projects = () => {
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                  <h1>FALTA AGREGAR PROYECTOS</h1>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
