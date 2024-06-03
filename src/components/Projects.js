@@ -29,7 +29,15 @@ export const Projects = () => {
       imgUrl: web,
       link:"https://github.com/Esterfrndz/WebShop"
     },
-    
+
+     {
+      title: "Buscar Anime",
+      description: "HTML/CSS/JS",
+      imgUrl: buscar-anime,
+      link:"https://buscador-anime-theta.vercel.app/"
+    },
+
+
     
   ];
 
