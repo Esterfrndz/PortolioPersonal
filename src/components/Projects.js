@@ -4,24 +4,19 @@ import Quicly from "../assets/img/Quickly.png";
 import game from "../assets/img/game.png";
 import web from "../assets/img/web.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import anime from "../assets/img/anime.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 
 export const Projects = () => {
 
-  const projects = [
+  const projects = [ 
     {
-      title: "Delivery App",
-      description: "Flutter",
-      imgUrl: Quicly,
-      link:"https://github.com/Esterfrndz/quick_drop/"
-    },
-    {
-      title: "Game",
-      description: "Javascript",
-      imgUrl: game,
-      link:"https://piedra-papel-tijera-two.vercel.app/"
+      title: "Buscar Anime",
+      description: "HTML/CSS/JS",
+      imgUrl: anime,
+      link:"https://buscador-anime-theta.vercel.app/"
     },
     {
       title: "Web Shop",
@@ -29,13 +24,20 @@ export const Projects = () => {
       imgUrl: web,
       link:"https://github.com/Esterfrndz/WebShop"
     },
-
-     {
-      title: "Buscar Anime",
-      description: "HTML/CSS/JS",
-      imgUrl: buscar-anime,
-      link:"https://buscador-anime-theta.vercel.app/"
+    {
+      title: "Game",
+      description: "Javascript",
+      imgUrl: game,
+      link:"https://piedra-papel-tijera-two.vercel.app/"
     },
+   
+    {
+      title: "Delivery App",
+      description: "Flutter",
+      imgUrl: Quicly,
+      link:"https://github.com/Esterfrndz/quick_drop/"
+    },
+    
 
 
     
