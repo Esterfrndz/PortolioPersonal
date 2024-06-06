@@ -4,8 +4,8 @@ import Quicly from "../assets/img/Quickly.png";
 import game from "../assets/img/game.png";
 import web from "../assets/img/web.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import anime from "../assets/img/anime.png"
-import parking from "../assets/img/parking.png"
+import anime from "../assets/img/anime.png";
+import parking from "../assets/img/parking.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -28,9 +28,9 @@ export const Projects = () => {
     },
 
     {
-      title: "Parking",
+      title: "parking",
       description: "HTML,CSS,JS",
-      imgUrl: Parking,
+      imgUrl: parking,
       link:"https://github.com/Esterfrndz/quick_drop/"
     },
 
