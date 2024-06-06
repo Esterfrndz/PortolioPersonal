@@ -31,7 +31,7 @@ export const Projects = () => {
       title: "parking",
       description: "HTML,CSS,JS",
       imgUrl: parking,
-      link:"https://github.com/Esterfrndz/quick_drop/"
+      link:"https://parking-alpha-three.vercel.app/"
     },
 
     {
