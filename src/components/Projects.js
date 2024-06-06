@@ -5,6 +5,7 @@ import game from "../assets/img/game.png";
 import web from "../assets/img/web.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import anime from "../assets/img/anime.png"
+import parking from "../assets/img/parking.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -18,12 +19,21 @@ export const Projects = () => {
       imgUrl: anime,
       link:"https://buscador-anime-theta.vercel.app/"
     },
+    
     {
       title: "Web Shop",
       description: "HTML/CSS",
       imgUrl: web,
       link:"https://github.com/Esterfrndz/WebShop"
     },
+
+    {
+      title: "Parking",
+      description: "HTML,CSS,JS",
+      imgUrl: Parking,
+      link:"https://github.com/Esterfrndz/quick_drop/"
+    },
+
     {
       title: "Game",
       description: "Javascript",
@@ -37,8 +47,6 @@ export const Projects = () => {
       imgUrl: Quicly,
       link:"https://github.com/Esterfrndz/quick_drop/"
     },
-    
-
 
     
   ];
