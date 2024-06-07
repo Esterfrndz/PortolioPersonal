@@ -30,7 +30,7 @@ export const Projects = () => {
     {
       title: "Parking",
       description: "HTML,CSS,JS",
-      imgUrl: parkingPortada,
+      imgUrl: parkingProject,
       link:"https://parking-alpha-three.vercel.app/"
     },
 
