@@ -5,7 +5,7 @@ import game from "../assets/img/game.png";
 import web from "../assets/img/web.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import anime from "../assets/img/anime.png";
-import parking from "../assets/img/parking.png";
+import parkingPortada from "../assets/img/parkingPortada.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -28,9 +28,9 @@ export const Projects = () => {
     },
 
     {
-      title: "parking",
+      title: "Parking",
       description: "HTML,CSS,JS",
-      imgUrl: parking,
+      imgUrl: parkingPortada,
       link:"https://parking-alpha-three.vercel.app/"
     },
 
