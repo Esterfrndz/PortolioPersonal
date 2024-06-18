@@ -11,6 +11,9 @@ import sassLogo from "../assets/img/sassLogo.png";
 import bootstrapLogo from "../assets/img/bootstrapLogo.png";
 //Backend Logo
 import phpLogo from "../assets/img/phpLogo.png"
+import nodejsLogo from "../assets/img/nodejs.png"
+import mongodbLogo from "../assets/img/mongodb.png"
+import mysqlLogo from "../assets/img/mysql.png"
 //Mobile Logo
 import kotlinLogo from"../assets/img/kotlinLogo.png";
 import flutterLogo from"../assets/img/flutterLogo.png";
@@ -20,6 +23,7 @@ import gitLogo from "../assets/img/gitLogo.png";
 import visualLogo from "../assets/img/visualLogo.png";
 import xamppLogo from "../assets/img/xamppLogo.png";
 import wordpressLogo from "../assets/img/wordpressLogo.png";
+import postmanLogo from "../assets/img/postman.svg"
 
 export const Skills = () => {
   const responsive = {
@@ -109,6 +113,23 @@ export const Skills = () => {
                   <h5>PHP</h5>
                 </div>
 
+                <div className="item">
+                  <img src={nodejsLogo} alt="" />
+                  <h5>Node.js</h5>
+                </div>
+
+                <div className="item">
+                  <img src={mongodbLogo} alt="" />
+                  <h5>Mongodb</h5>
+                </div>
+
+                <div className="item">
+                  <img src={mysqlLogo} alt="" />
+                  <h5>MySQL</h5>
+                </div>
+
+
+
             
               </Carousel>
               <br></br>
@@ -157,6 +178,11 @@ export const Skills = () => {
                 <div className="item">
                   <img src={gitLogo} alt="" />
                   <h5>Git</h5>
+                </div>
+
+                <div className="item">
+                  <img src={postmanLogo} alt="" />
+                  <h5>Postman</h5>
                 </div>
 
                 <div className="item">
