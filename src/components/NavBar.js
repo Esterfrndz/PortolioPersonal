@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
-import github from "../assets/img/github.png"
 import logoLight from '../assets/img/logoLight.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navicon2 from '../assets/img/navicon2.png';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon2 from '../assets/img/nav-Icon2.svg';
+
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -49,11 +48,12 @@ export const NavBar = () => {
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
+
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/esterfern%C3%A1ndez/"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/Esterfrndz">
-                <img src={github} alt="" />
+                <img src={navIcon2} alt=""/>
                 </a>
                 
               </div>
